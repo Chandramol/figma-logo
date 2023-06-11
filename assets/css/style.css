@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Source Sans 3', sans-serif; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+h1 {
+  margin-bottom: 80px;
+  font-weight: 900;
+}
+/* home section */
+.container {
+  max-width: 1440px;
+}
+.home {
+  background-color: #ffc700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 650px;
+}
+.home-head {
+  margin-bottom: 30px;
+  font-weight: 900;
+  width: 460px;
+}
+.para-head {
+  margin-bottom: 30px;
+  width: 448px;
+}
+.home-btn {
+  text-transform: uppercase;
+  padding: 13px 0px;
+  width: 216px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 2.5px;
+}
+.home-img img {
+  height: 650px !important;
+  width: 721px;
+}
+/* challange section */
+.main-box {
+  margin-top: 200px;
+}
+.main-box1 {
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.main-box1 h1 {
+  margin-bottom: 58px;
+  font-weight: 900;
+  width: 475px;
+  text-align: end;
+}
+.box {
+  width: 482px;
+  height: 267px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  margin-bottom: 80px;
+  padding: 30px 100px;
+}
+.box .sticker {
+  background-color: #ffc700;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -60px;
+  top: 60px;
+}
+.box .sticker1 {
+  left: 87%;
+}
+.box h2 {
+  width: 344px;
+  margin-bottom: 20px;
+}
+.box p {
+  width: 344px;
+}
+/* Recent projects */
+.recent-project {
+  margin-top: 120px;
+}
+.circle-gray {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  z-index: -1;
+  position: absolute;
+  left: -381px;
+  top: 13px;
+}
+
+.recent-project h2 {
+  margin-bottom: 30px;
+}
+.recent-project p {
+  width: 448px;
+  font-size: 15px;
+  margin-bottom: 98px;
+}
+.recent-project-img img {
+  width: 543px;
+  height: 500px;
+}
+.recent-project-img .dot1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background-color: #ffc700;
+}
+.recent-project-img .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background-color: #d8d8d8;
+  margin-right: 73px;
+}
+.recent-project1 {
+  margin-left: 173px;
+}
+.squre-yellow {
+  height: 500px;
+  width: 370px;
+  position: absolute;
+  bottom: 0px;
+  right: -150px;
+  background-color: #ffc700;
+  z-index: -1;
+}
+/* About us section */
+.about-text {
+  margin-left: 75px;
+  margin-top: 210px;
+}
+.about-img {
+  margin-top: 210px;
+}
+.about-img img {
+  height: 320px;
+  width: 543px;
+}
+.squre-gray {
+  height: 255px;
+  width: 370px;
+  background-color: #d8d8d8;
+  position: absolute;
+  top: -70px;
+    left: -140px;
+  z-index: -1;
+}
